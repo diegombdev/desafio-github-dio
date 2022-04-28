@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fafafa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+#instagram-wrapper {
+    width: 100%;
+    height: 100%;
+    max-width: 815px;
+    max-height: 585px;
+    display: flex;
+    /* background: blue; */
+}
+
+/* SEÇÃO SMARTPHONE */
+
+#instagram-smartphone {
+    width: 468px;
+    height: auto;
+    background: url("img/instagram-smartphone.png") no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#instagram-smartphone img {
+    position: absolute;
+    width: auto;
+    height: 100%;
+    max-height: 538px;
+    top: 30px;
+    right: 60px;
+}
+
+/* FIM DA SEÇÃO SMARTPHONE */
+
+/* SEÇÃO ASIDE */
+#instagram-aside {
+    width: 350px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+}
+
+#instagram-aside > span {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+#painel-login {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#logo {
+    margin-top: 36px;
+    margin-bottom: 12px;
+    width: 175px;
+    height: auto;
+}
+
+#painel-login form {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+}
+
+#painel-login span {
+    margin-top: 10px;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #8E8E8E;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#painel-login > span::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #CCC;
+    margin-left: 18px;
+}
+
+#painel-login > span::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #CCC;
+    margin-right: 18px;
+}
+
+#login-with-facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 0;
+}
+
+#login-with-facebook img {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+#login-with-facebook a {
+    color: #385185;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#painel-login > a {
+    margin-top: 12px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #00376b;    
+}
+
+#new-account {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    padding: 25px 0;
+    font-size: 14px;
+}
+
+#new-account a {
+    color: #0095f6;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#group-buttons-store {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+#group-buttons-store a img {
+    width: 136px;
+    height: auto;
+}
+/* FIM DA SEÇÃO ASIDE */
+
+
+.box-white {
+    width: 100%;
+    background: #FFF;
+    border: 1px solid #CCC;
+}
+
+.input {
+    border: 1px solid #CCC;
+    font-size: 13px;
+    background: #fafafa;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.btn-submit {
+    background: rgba(0, 149, 246, 0.3);
+    border-radius: 5px;
+    padding: 5px 9px;
+    border: none;
+    color: #FFF;
+    font-weight: bold;
+    user-select: none;
+    margin: 8px 0;
+}
+
+.btn-store {
+    width: 136px;
+    height: auto;
+}
