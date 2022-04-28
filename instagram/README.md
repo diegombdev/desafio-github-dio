@@ -5,7 +5,9 @@ Esse é o repositório do desafio de projeto do bootcamp **Spread Fullstack Deve
 ![Interface de login Instagram!](images/preview-login-instagram.png "Interface de login Instagram")
 
 ## ✅ Funcionalidades
- 
-[ ] Habilitar o botão de entrar ao preencher os campos do formulário
-[ ] Efeitos de slide nas imagens do smartphone
-[ ] Responsividade do layout
+
+<ul style="list-style: none;"> 
+    <li>[ ] Habilitar o botão de entrar ao preencher os campos do formulário</li>
+    <li>[ ] Efeitos de slide nas imagens do smartphone</li>
+    <li>[ ] Responsividade do layout</li>
+</ul>
