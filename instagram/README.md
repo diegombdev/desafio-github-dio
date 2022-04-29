@@ -7,7 +7,7 @@ Esse é o repositório do desafio de projeto do bootcamp **Spread Fullstack Deve
 ## ✅ Funcionalidades
 
 <ul style="list-style: none;"> 
+    <li>[X] Responsividade do layout</li>
     <li>[ ] Habilitar o botão de entrar ao preencher os campos do formulário</li>
     <li>[ ] Efeitos de slide nas imagens do smartphone</li>
-    <li>[ ] Responsividade do layout</li>
 </ul>
