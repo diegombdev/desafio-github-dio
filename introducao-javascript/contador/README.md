@@ -4,10 +4,11 @@ Esse é o repositório do desafio de projeto do bootcamp **Spread Fullstack Deve
 
 ![Contador Javascript!](images/preview-contador.png "Contador Javascript")
 
-<!-- ## ✅ Funcionalidades
+## ✅ Funcionalidades
 
-<ul style="list-style: none;"> 
-    <li>[X] Responsividade do layout</li>
-    <li>[X] Habilitar o botão de entrar ao preencher os campos do formulário</li>
-    <li>[X] Efeitos de slide nas imagens do smartphone</li>
-</ul> -->
+<ul style="list-style: none;">     
+    <li>[X] Incrementa o número</li>
+    <li>[X] Decrementa o número</li>
+    <li>[X] Reseta o valor, voltando para 0 o contador</li>
+    <li>[X] Caso o número seja negativo, sua cor muda para vermelho</li>
+</ul>
