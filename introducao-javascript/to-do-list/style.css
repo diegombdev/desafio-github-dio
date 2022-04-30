@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    height: 100%;
+    background: linear-gradient(#e66465, #9198e5) no-repeat;
+
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 400px;
+    max-height: 100%;    
+    height: fit-content;    
+    background: #FFF;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+    border-radius: 5px;
+}
+
+.container h1 {
+    margin: 10px 0;    
+}
+
+.container ul {
+    width: 100%;
+    max-width: 350px;
+    max-height: 600px;
+    list-style: none;
+
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+
+    overflow-y: auto;
+}
+
+.container ul li {
+    word-wrap: break-word;
+    padding: 10px 5px;
+    background: rgb(236, 230, 230);
+    margin: 5px 0;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.container ul li input {
+    width: 20px;
+    height: 20px;
+}
+
+.box-task {
+    width: 100%;
+    max-width: 350px;
+    margin: 10px 0;
+
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+
+}
+
+.box-task input {
+    width: 100%;
+}
+
+.box-task input, button {
+    padding: 5px 8px;
+}
+
+.box-task button {
+    width: 40px;
+}
+
+.box-footer {
+    width: 100%;
+    max-width: 350px;
+    margin: 10px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container button {
+    background: #9198e5;
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+
+    text-shadow: 0px 2px 3px #CE5937;
+}
+
+.container button:active {
+    background: #e66465;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
