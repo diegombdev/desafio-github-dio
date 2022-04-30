@@ -2,7 +2,7 @@
 
 Esse é o repositório do desafio de projeto do bootcamp **Spread Fullstack Developer** , na qual foi desenvolvido um contador com javascript.
 
-![Contador Javascript!](images/preview-login-instagram.png "Contador Javascript")
+![Contador Javascript!](images/preview-contador.png "Contador Javascript")
 
 <!-- ## ✅ Funcionalidades
 
