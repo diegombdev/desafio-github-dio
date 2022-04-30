@@ -12,3 +12,7 @@ Layout criado durante a aula de flexbox mostrando sua implementação.
 ## Desafio Instagram
 Criando o layout do Instagram.
 [Acesso](https://github.com/diegombdev/desafio-github-dio/tree/main/instagram)
+
+## Introdução ao Javascript
+Aulas práticas de javascript. Criando um contador e um to-do-list.
+[Acesso](https://github.com/diegombdev/desafio-github-dio/tree/main/introducao-javascript)
