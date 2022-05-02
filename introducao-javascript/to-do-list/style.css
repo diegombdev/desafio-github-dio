@@ -87,6 +87,11 @@ body {
     width: 40px;
 }
 
+.draw-line {
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
 .box-footer {
     width: 100%;
     max-width: 350px;
