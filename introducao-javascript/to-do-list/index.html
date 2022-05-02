@@ -15,27 +15,16 @@
     <div class="container">
         <h1>Todo App</h1>
         <div class="box-task">
-            <input type="text" id="input-text" placeholder="Digite sua tarefa aqui!">
+            <input type="text" id="input-text" placeholder="Digite sua tarefa aqui">
             <button type="button" id="button-add">+</button>
         </div>
         <ul>
-            <li>
-                <input type="checkbox" name="">
-                <span>Lavar a louça</span>
-            </li>
-            <li>
-                <input type="checkbox" name="">
-                <span>Comprar um caderno novo</span>
-            </li>
-            <li>
-                <input type="checkbox" name="">
-                <span>Dentista às 16:30</span>
-            </li>
         </ul>
         <div class="box-footer">
-            <span>Você têm <strong>3</strong> tarefas pendente</span>
+            <span>Você têm <strong id="pending-task">0</strong> tarefas pendentes</span>
             <button type="button" id="button-reset">Limpar lista</button>
         </div>
-    </div>    
+    </div>
+    <script src="main.js" type="text/javascript"></script>    
 </body>
 </html>
