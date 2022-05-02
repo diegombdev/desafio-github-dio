@@ -7,7 +7,9 @@ Esse é o repositório do desafio de projeto do bootcamp **Spread Fullstack Deve
 ## ✅ Funcionalidades
 
 <ul style="list-style: none;">     
-    <li>[ ] Adicionar tarefa a lista</li>
-    <li>[ ] Quando marcada como feita, riscar o texto</li>
-    <li>[ ] Limpar toda a lista</li>
+    <li>[X] Adicionar tarefa a lista</li>
+    <li>[X] Quando marcada como feita, riscar o texto</li>
+    <li>[X] Limpar toda a lista</li>
+    <li>[X] Incrementar o contador de tarefas pendentes quando adicionar uma tarefa</li>
+    <li>[X] Decrementar o contador de tarefas pendentes quando marcar uma tarefa</li>
 </ul>
