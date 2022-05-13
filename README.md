@@ -16,3 +16,7 @@ Criando o layout do Instagram.
 ## Introdução ao Javascript
 Aulas práticas de javascript. Criando um contador e um to-do-list.
 [Acesso](https://github.com/diegombdev/desafio-github-dio/tree/main/introducao-javascript)
+
+## Sinatxe e operadores
+Atividade de javascript.
+[Acesso](https://github.com/diegombdev/desafio-github-dio/tree/main/sintaxe-operadores)
