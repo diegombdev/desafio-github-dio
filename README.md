@@ -20,3 +20,7 @@ Aulas práticas de javascript. Criando um contador e um to-do-list.
 ## Sinatxe e operadores
 Atividade de javascript.
 [Acesso](https://github.com/diegombdev/desafio-github-dio/tree/main/sintaxe-operadores)
+
+## Sistema de estacionamento em typescript
+Atividade de javascript.
+[Acesso](https://github.com/diegombdev/desafio-github-dio/tree/main/sistema-estacionamento)
